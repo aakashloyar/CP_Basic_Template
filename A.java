@@ -73,7 +73,7 @@ public class A {
                 ans%=mod;
             }
             res=res*res;
-            ans%=mod;
+            res%=mod;
             pow=pow>>1;
         }
         return ans;
