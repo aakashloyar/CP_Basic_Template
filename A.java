@@ -1,4 +1,4 @@
-package com.aakash.BasicTemplate;
+package com.aakash.BasicTemplate.CP_Basic_Template;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,9 +7,10 @@ import java.io.PrintWriter;
 import java.util.*;
 
 public class A {
+    static BufferedReader br = new BufferedReader(
+            new InputStreamReader(System.in));
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(
-                new InputStreamReader(System.in));
+
         StringTokenizer s1
                 = new StringTokenizer(br.readLine());
         int t = Integer.parseInt(s1.nextToken());
