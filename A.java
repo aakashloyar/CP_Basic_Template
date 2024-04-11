@@ -80,8 +80,6 @@ public class A {
         return ans;
     }
     static int IR(int a,int b,int c,int d) throws IOException {
-        BufferedReader br = new BufferedReader(
-                new InputStreamReader(System.in));
         System.out.println("? "+a+" "+b+" "+c+" "+d);
         System.out.flush();
         StringBuilder sb=new StringBuilder(br.readLine());
